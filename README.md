@@ -112,6 +112,5 @@ python saliencyPredictSaliency02FCN.py
 ```
 ## 5. Citation
 
-```
+
 Stavros Nousias, Gerasimos Arvanitis, Aris Lalos, and Konstantinos Moustakas. 2023. Deep Saliency Mapping for 3D Meshes and Applications. ACM Trans. Multimedia Comput. Commun. Appl. 19, 2, Article 71 (March 2023), 22 pages. https://doi.org/10.1145/3550073
-```
