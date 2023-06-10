@@ -75,38 +75,42 @@ ACM Transactions on Multimedia Computing, Communications, and Applications
 ## 4. Implementation
 ---
 
-### Requirements
+### 4.1 Requirements
 ```
-
-
+pickle
+glob
+tensorflow
+keras
 ```
-### Groundtruth generation
-```
-python saliencyGenerateRPCAGroundTruth.py
-```
-
-
-### Training of CNN
-```
-python saliencyGenerateRPCAGroundTruth.py
-```
-
-### Training of FCN
+### 4.2 Groundtruth generation
 ```
 python saliencyGenerateRPCAGroundTruth.py
 ```
 
 
-### Inference
+### 4.3 Training of CNN
 ```
-python saliencyGenerateRPCAGroundTruth.py
-
-
+python saliencyTrainSaliency01CNN.py
 ```
 
+### 4.3 Training of FCN
+```
+python saliencyTrainSaliency02FCN.py
+```
 
 
-## Citation
+### 4.5 Inference
+```
+python saliencyPredictSaliency01CNN.py
+
+```
+
+
+```
+python saliencyPredictSaliency02FCN.py
+
+```
+## 5. Citation
 
 ```
 Stavros Nousias, Gerasimos Arvanitis, Aris Lalos, and Konstantinos Moustakas. 2023. Deep Saliency Mapping for 3D Meshes and Applications. ACM Trans. Multimedia Comput. Commun. Appl. 19, 2, Article 71 (March 2023), 22 pages. https://doi.org/10.1145/3550073
